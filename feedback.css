@@ -1,0 +1,288 @@
+body {
+background:url(Images/orange-wallpaper-30.jpg)no-repeat; 
+background-size: 100% 100%; ;
+}
+
+.t {
+	position: absolute;
+    margin-left: 30px;
+    margin-top: 0px;
+    width: 70px;
+	height: 95px;
+   }
+
+.r {
+	position: relative;
+    margin-left: 70px;
+    margin-top: 45px;
+    width:120px;   
+    height:50px;
+	}
+
+.button{
+	position: absolute;
+	margin-left: 1100px;
+    margin-top: 15px;
+}
+
+.button hr{
+	margin-left: -160px;
+	margin-top: 10px;
+	width: 400px;
+	border: 0.5px solid #A6ACAF;
+}
+	
+.search{
+	position: absolute;
+	margin-left: 950px;
+    margin-top: 70px;
+}	
+
+.search img{
+	width: 70px;
+}
+	
+h1{
+	font-size: 40px;
+	position: absolute;
+	text-align: center;
+	margin-left: 110px;
+    margin-top: -95px;
+	color: orange;
+	font-family: fantasy;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: brown;
+	text-decoration: overline;
+}
+h2{
+	font-size: 28px;
+    position: absolute;
+	text-align: center;
+	margin-left: 190px;
+    margin-top: -45px;
+	color: orange;
+	font-family: fantasy;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: brown;
+    text-decoration: overline;
+
+}
+	
+#menubar{
+	    position:sticky;
+        top:0;
+        background-color: brown;
+        font-family:'K2D', sans-serif; 
+        height: 50px;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: 10px;
+        z-index: 2;
+}
+
+a  {
+    text-decoration: none;
+    color: pink;
+}
+
+a:hover{
+    color:orange;
+}
+
+
+
+
+.Container{
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin:auto;
+    user-select: none;
+    box-shadow: 0px 0px 3px 1px #00000078;
+    padding: 10px;
+    box-sizing: border-box;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background:url(Images/WKAZACf.jpg)no-repeat; 
+	background-size: 100% 100%; 
+}
+	
+#menubar ul {
+    font-family: monospace;
+	font-size:18px;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+#menubar li {
+    float:left;
+    margin-top: 15px;
+    padding-right: 30px;   
+}
+
+.dropbtn 
+{
+  background-color: brown;
+  padding: 6px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown
+{
+  position: relative;
+  display: inline-block;
+  top: -3px;
+}
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  margin-left: -30px;
+  min-width: 180px;
+  z-index: 1;
+}
+
+.dropdown-content a 
+{
+  color: pink;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: brown;
+}
+
+.dropdown-content a:hover
+{
+  color:orange;
+  background-color: #78281F;
+}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+
+
+.contact-title{
+	margin-top: 100px;
+	font-family: jokerman;
+	text-align: center;
+	transition: all 4s ease-in-out;
+}
+
+.contact-title h4{
+  font-size: 25px;
+  line-height: 10px;
+  color: #ff5722;
+}
+
+.feedback-form form{
+	text-align: center;
+	transition: all 4s ease-in-out;
+}
+
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+
+.feedback-form input{
+	height: 45px;
+}
+
+.feedback-form  textarea{
+	height: 80px;
+}
+
+form .submit{
+	background: #ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+form .submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
+
+h3 {
+	font-family: sans-serif;
+	margin-left: 200px;
+    margin-top: 50px;
+	text-decoration: underline;
+	color:#E59866;
+}
+
+.section p {
+	font-size: 18px;
+    text-align:justify;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.section ul {
+    
+     font-size:18px;
+     margin-left: 200px;  
+}
+
+hr{
+	margin-top: 80px;
+}
+
+footer{
+  width:100%;
+  background-color:#FF6633  ;
+  padding: 50px 0px;
+  margin-top: 2px;
+}		 
+
+.map{
+	
+	border:5px;
+    margin-left: 700px; 
+	margin-top: -10px;
+	
+	}
+
+footer .quicklink  {
+    font-size:18px;
+	margin-left: 150px;
+	margin-top: 50px;
+    list-style-type: none;
+	padding-bottom:0px;
+}
+
+footer .quicklink a {
+   color: #FFCC80;
+}
+
+
+footer .quicklink a:hover {
+   color: #FFEB3B;
+}
+
+.vid{
+	border:5px;
+    margin-left: 80px; 
+	margin-top: -300px;
+	
+}
+
+
+
+
+
+
